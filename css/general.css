@@ -1,0 +1,135 @@
+html {
+	background-color: #f6f4f3;
+	font-family: 'Playfair Display', serif;
+	color: #27120b;
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	padding: 0;
+	margin:0;
+}
+
+.header {
+	padding-top: 5%;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.logo,
+.footer-logo {
+	width: 20%;
+	float: left;
+	margin-bottom: 4%;
+}
+
+nav,
+.footer-nav {
+	width: 80%;
+	float: right;
+	vertical-align: middle;
+	line-height: 150px;  
+}
+
+ol, li {
+	display: inline;
+	text-align: right;
+}
+
+li {
+	list-style-type: none;
+}
+
+.spacing {
+		margin-right: 5%;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #27120b;
+	text-align: right;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+	text-align: right;
+}
+
+.footer-nav a:link,
+.footer-nav a:visited {
+	color: white;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active {
+	color: white;
+}
+	
+
+.banner{
+	margin-top: 5%;
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 5%;
+
+}
+
+.content {
+	overflow: hidden;
+	padding-bottom: 5%;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.craftsmanship,
+.custom-carpentry,
+.refinishing,
+.contact {
+	width: 21.25%;
+	overflow: hidden;
+}
+
+.craftsmanship {
+	float: left;
+}
+
+.custom-carpentry,
+.refinishing,
+.contact {
+	float: right;
+	margin-left: 5%;
+}
+
+h1 {
+	font-size: 1.75em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+}
+
+footer {
+	background-color: #91817d;
+	height: 300px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+		width: 85%;
+	margin: 0 auto;
+}
+
+.footer-logo,
+.footer-nav {
+	padding-top: 5%;
+	color: white;
+}
